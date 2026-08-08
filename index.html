@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Cameron Brown</title>
+    <title>Cameron Brown | Portfolio</title>
 
     <link rel="stylesheet" href="style.css">
 </head>
@@ -14,7 +14,7 @@
 
     <!-- Navigation -->
 
-    <header>
+    <header class="site-header">
 
         <nav class="navbar">
 
@@ -22,90 +22,43 @@
                 Cameron Brown
             </a>
 
-            <ul class="nav-links">
+            <div class="nav-links">
 
-                <li>
-                    <a href="index.html">Home</a>
-                </li>
+                <a href="index.html" class="active">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
 
-                <li>
-                    <a href="portfolio.html">Portfolio</a>
-                </li>
-
-                <li>
-                    <a href="about.html">About</a>
-                </li>
-
-                <li>
-                    <a href="contact.html">Contact</a>
-                </li>
-
-            </ul>
+            </div>
 
         </nav>
 
     </header>
 
 
-    <!-- Hero -->
-
     <main>
+
+        <!-- Hero -->
 
         <section class="hero">
 
             <div class="hero-content">
 
-                <p class="hero-small">
-                    WELCOME TO MY WEBSITE
+                <p class="eyebrow">
+                    PHOTOGRAPHY • VIDEO • TECHNOLOGY • AV
                 </p>
 
                 <h1>
                     Cameron Brown
                 </h1>
 
-                <p class="hero-description">
-                    Photography, Videography, Technology & AV
+                <p class="hero-text">
+                    A collection of my projects, creative work,
+                    technical projects and things I'm passionate about.
                 </p>
 
-                <div class="hero-buttons">
-
-                    <a href="portfolio.html" class="button">
-                        View My Work
-                    </a>
-
-                    <a href="contact.html" class="button button-outline">
-                        Get In Touch
-                    </a>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- About preview -->
-
-        <section class="section">
-
-            <div class="section-content">
-
-                <p class="section-label">
-                    ABOUT ME
-                </p>
-
-                <h2>
-                    Creating. Building. Exploring.
-                </h2>
-
-                <p>
-                    Welcome to my website. This is where I showcase
-                    my photography, videography, technology projects,
-                    AV work and other things I'm working on.
-                </p>
-
-                <a href="about.html" class="text-link">
-                    Learn more about me →
+                <a href="portfolio.html" class="primary-button">
+                    Explore My Work
                 </a>
 
             </div>
@@ -113,13 +66,13 @@
         </section>
 
 
-        <!-- What I Do -->
+        <!-- Work Categories -->
 
-        <section class="section section-dark">
+        <section class="categories">
 
-            <div class="section-content">
+            <div class="section-heading">
 
-                <p class="section-label">
+                <p class="eyebrow">
                     WHAT I DO
                 </p>
 
@@ -127,90 +80,121 @@
                     My Work
                 </h2>
 
-                <div class="work-grid">
-
-                    <a href="portfolio.html" class="work-card">
-
-                        <div class="work-card-content">
-
-                            <h3>
-                                Photography
-                            </h3>
-
-                            <p>
-                                Events, people, projects and creative photography.
-                            </p>
-
-                        </div>
-
-                    </a>
+            </div>
 
 
-                    <a href="portfolio.html" class="work-card">
-
-                        <div class="work-card-content">
-
-                            <h3>
-                                Videography
-                            </h3>
-
-                            <p>
-                                Video production, filming and editing.
-                            </p>
-
-                        </div>
-
-                    </a>
+            <div class="category-grid">
 
 
-                    <a href="portfolio.html" class="work-card">
+                <a href="portfolio.html" class="category-card">
 
-                        <div class="work-card-content">
+                    <div class="category-image photography">
+                        <span>Photography</span>
+                    </div>
 
-                            <h3>
-                                Technology
-                            </h3>
+                    <div class="category-info">
 
-                            <p>
-                                Coding, electronics, websites and technology projects.
-                            </p>
+                        <h3>Photography</h3>
 
-                        </div>
+                        <p>
+                            Photos from events, projects and
+                            other photography work.
+                        </p>
 
-                    </a>
+                        <span class="view-link">
+                            View Photography →
+                        </span>
+
+                    </div>
+
+                </a>
 
 
-                    <a href="portfolio.html" class="work-card">
+                <a href="portfolio.html" class="category-card">
 
-                        <div class="work-card-content">
+                    <div class="category-image videography">
+                        <span>Videography</span>
+                    </div>
 
-                            <h3>
-                                AV
-                            </h3>
+                    <div class="category-info">
 
-                            <p>
-                                Audio, lighting, video and live production.
-                            </p>
+                        <h3>Videography</h3>
 
-                        </div>
+                        <p>
+                            Video production, filming,
+                            editing and projects.
+                        </p>
 
-                    </a>
+                        <span class="view-link">
+                            View Videography →
+                        </span>
 
-                </div>
+                    </div>
+
+                </a>
+
+
+                <a href="portfolio.html" class="category-card">
+
+                    <div class="category-image technology">
+                        <span>Technology</span>
+                    </div>
+
+                    <div class="category-info">
+
+                        <h3>Technology</h3>
+
+                        <p>
+                            Coding, electronics, websites
+                            and technology projects.
+                        </p>
+
+                        <span class="view-link">
+                            View Technology →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+                <a href="portfolio.html" class="category-card">
+
+                    <div class="category-image av">
+                        <span>AV</span>
+                    </div>
+
+                    <div class="category-info">
+
+                        <h3>Audio Visual</h3>
+
+                        <p>
+                            Audio, lighting, video and
+                            live production projects.
+                        </p>
+
+                        <span class="view-link">
+                            View AV →
+                        </span>
+
+                    </div>
+
+                </a>
+
 
             </div>
 
         </section>
 
 
-        <!-- Portfolio -->
+        <!-- Featured Projects -->
 
-        <section class="section">
+        <section class="featured">
 
-            <div class="section-content">
+            <div class="section-heading">
 
-                <p class="section-label">
-                    PORTFOLIO
+                <p class="eyebrow">
+                    PROJECTS
                 </p>
 
                 <h2>
@@ -218,12 +202,123 @@
                 </h2>
 
                 <p>
-                    Take a look through some of my projects and work.
+                    A selection of projects and work I've
+                    been involved with.
                 </p>
 
-                <a href="portfolio.html" class="button">
-                    Explore Portfolio
+            </div>
+
+
+            <div class="project-grid">
+
+                <a href="portfolio.html" class="project-card">
+
+                    <div class="project-placeholder">
+                        Project 01
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>
+                            Project Name
+                        </h3>
+
+                        <p>
+                            Photography / Video
+                        </p>
+
+                    </div>
+
                 </a>
+
+
+                <a href="portfolio.html" class="project-card">
+
+                    <div class="project-placeholder">
+                        Project 02
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>
+                            Project Name
+                        </h3>
+
+                        <p>
+                            Technology / AV
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+                <a href="portfolio.html" class="project-card">
+
+                    <div class="project-placeholder">
+                        Project 03
+                    </div>
+
+                    <div class="project-info">
+
+                        <h3>
+                            Project Name
+                        </h3>
+
+                        <p>
+                            Photography / Video
+                        </p>
+
+                    </div>
+
+                </a>
+
+            </div>
+
+
+            <div class="center-button">
+
+                <a href="portfolio.html" class="secondary-button">
+                    View All Projects
+                </a>
+
+            </div>
+
+        </section>
+
+
+        <!-- About -->
+
+        <section class="about-preview">
+
+            <div class="about-content">
+
+                <div>
+
+                    <p class="eyebrow">
+                        ABOUT ME
+                    </p>
+
+                    <h2>
+                        Creating, building and learning.
+                    </h2>
+
+                </div>
+
+                <div>
+
+                    <p>
+                        I'm Cameron, and this website is a place
+                        to showcase the projects I've worked on,
+                        the things I've created and the skills
+                        I've developed.
+                    </p>
+
+                    <a href="about.html" class="view-link">
+                        More About Me →
+                    </a>
+
+                </div>
 
             </div>
 
@@ -232,23 +327,23 @@
 
         <!-- Contact -->
 
-        <section class="contact-section">
+        <section class="contact">
 
-            <div class="contact-content">
+            <p class="eyebrow">
+                GET IN TOUCH
+            </p>
 
-                <h2>
-                    Have a project in mind?
-                </h2>
+            <h2>
+                Have a project or question?
+            </h2>
 
-                <p>
-                    Get in touch and let's talk.
-                </p>
+            <p>
+                I'd love to hear from you.
+            </p>
 
-                <a href="contact.html" class="button">
-                    Contact Me
-                </a>
-
-            </div>
+            <a href="contact.html" class="primary-button">
+                Contact Me
+            </a>
 
         </section>
 
@@ -257,21 +352,37 @@
 
     <!-- Footer -->
 
-    <footer>
+    <footer class="footer">
 
         <div class="footer-content">
 
-            <h3>
-                Cameron Brown
-            </h3>
+            <div>
 
-            <p>
-                Photography • Videography • Technology • AV
-            </p>
+                <h3>
+                    Cameron Brown
+                </h3>
 
-            <p class="copyright">
-                © 2026 Cameron Brown. All rights reserved.
-            </p>
+                <p>
+                    Photography • Videography • Technology • AV
+                </p>
+
+            </div>
+
+            <div class="footer-links">
+
+                <a href="index.html">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="copyright">
+
+            © 2026 Cameron Brown. All rights reserved.
 
         </div>
 
