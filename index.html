@@ -2,118 +2,89 @@
 <html lang="en">
 
 <head>
+
     <meta charset="UTF-8">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <title>Cameron Brown</title>
 
     <link rel="stylesheet" href="style.css">
+
 </head>
+
 
 <body>
 
-    <header>
-        <nav class="navbar">
+
+    <!-- =========================
+         NAVIGATION
+    ========================== -->
+
+    <header class="header">
+
+        <nav class="navigation">
 
             <a href="index.html" class="logo">
-                Cameron Brown
+                CAMERON BROWN
             </a>
 
-            <div class="nav-links">
-                <a href="index.html">Home</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="about.html">About</a>
-                <a href="contact.html">Contact</a>
+            <div class="nav-menu">
+
+                <a href="#work">Work</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#about">About</a>
+
+                <a href="#contact">Contact</a>
+
             </div>
 
         </nav>
+
     </header>
+
 
 
     <main>
 
+
+        <!-- =========================
+             HERO
+        ========================== -->
+
         <section class="hero">
 
-            <p class="eyebrow">
-                PHOTOGRAPHY • VIDEOGRAPHY • TECHNOLOGY • AV
-            </p>
+            <div class="hero-image">
 
-            <h1>
-                Cameron Brown
-            </h1>
+                <div class="hero-placeholder">
 
-            <p>
-                Welcome to my portfolio.
-            </p>
+                    <span>FEATURE IMAGE</span>
 
-            <a href="portfolio.html" class="button">
-                View My Projects
-            </a>
+                </div>
 
-        </section>
+            </div>
 
 
-        <section class="work">
+            <div class="hero-content">
 
-            <p class="eyebrow">
-                MY WORK
-            </p>
+                <p class="eyebrow">
+                    PHOTOGRAPHY · VIDEO · TECHNOLOGY · AV
+                </p>
 
-            <h2>
-                What I Do
-            </h2>
+                <h1>
+                    Cameron Brown
+                </h1>
 
-            <div class="work-grid">
+                <p class="hero-description">
+                    A collection of my creative work,
+                    technical projects and things I'm
+                    passionate about.
+                </p>
 
-                <a href="portfolio.html" class="work-card">
-                    <div class="image-placeholder">
-                        Photography
-                    </div>
-
-                    <h3>Photography</h3>
-
-                    <p>
-                        Photography projects and work.
-                    </p>
-                </a>
-
-
-                <a href="portfolio.html" class="work-card">
-                    <div class="image-placeholder">
-                        Videography
-                    </div>
-
-                    <h3>Videography</h3>
-
-                    <p>
-                        Video projects and production.
-                    </p>
-                </a>
-
-
-                <a href="portfolio.html" class="work-card">
-                    <div class="image-placeholder">
-                        Technology
-                    </div>
-
-                    <h3>Technology</h3>
-
-                    <p>
-                        Coding, electronics and technology projects.
-                    </p>
-                </a>
-
-
-                <a href="portfolio.html" class="work-card">
-                    <div class="image-placeholder">
-                        AV
-                    </div>
-
-                    <h3>Audio Visual</h3>
-
-                    <p>
-                        Audio, lighting and AV projects.
-                    </p>
+                <a href="#work" class="hero-button">
+                    Explore My Work
                 </a>
 
             </div>
@@ -121,64 +92,380 @@
         </section>
 
 
-        <section class="about">
 
-            <p class="eyebrow">
-                ABOUT
-            </p>
+        <!-- =========================
+             SELECTED WORK
+        ========================== -->
 
-            <h2>
-                About Cameron
-            </h2>
+        <section class="work-section" id="work">
 
-            <p>
-                This website is where I showcase my projects,
-                creative work and things I'm working on.
-            </p>
+            <div class="section-header">
 
-            <a href="about.html" class="button">
-                Learn More
-            </a>
+                <p class="eyebrow">
+                    WHAT I DO
+                </p>
+
+                <h2>
+                    Selected Work
+                </h2>
+
+            </div>
+
+
+            <div class="work-grid">
+
+
+                <!-- Photography -->
+
+                <a href="portfolio.html" class="work-item">
+
+                    <div class="work-image">
+
+                        <span>
+                            PHOTOGRAPHY
+                        </span>
+
+                    </div>
+
+                    <div class="work-title">
+
+                        <h3>
+                            Photography
+                        </h3>
+
+                        <span>
+                            View work →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- Videography -->
+
+                <a href="portfolio.html" class="work-item">
+
+                    <div class="work-image">
+
+                        <span>
+                            VIDEOGRAPHY
+                        </span>
+
+                    </div>
+
+                    <div class="work-title">
+
+                        <h3>
+                            Videography
+                        </h3>
+
+                        <span>
+                            View work →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- Technology -->
+
+                <a href="portfolio.html" class="work-item">
+
+                    <div class="work-image">
+
+                        <span>
+                            TECHNOLOGY
+                        </span>
+
+                    </div>
+
+                    <div class="work-title">
+
+                        <h3>
+                            Technology
+                        </h3>
+
+                        <span>
+                            View work →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+
+                <!-- AV -->
+
+                <a href="portfolio.html" class="work-item">
+
+                    <div class="work-image">
+
+                        <span>
+                            AUDIO VISUAL
+                        </span>
+
+                    </div>
+
+                    <div class="work-title">
+
+                        <h3>
+                            Audio Visual
+                        </h3>
+
+                        <span>
+                            View work →
+                        </span>
+
+                    </div>
+
+                </a>
+
+
+            </div>
 
         </section>
 
 
-        <section class="contact">
+
+        <!-- =========================
+             RECENT PROJECTS
+        ========================== -->
+
+        <section class="projects-section" id="projects">
+
+            <div class="section-header">
+
+                <p class="eyebrow">
+                    RECENT WORK
+                </p>
+
+                <h2>
+                    Projects
+                </h2>
+
+                <p>
+                    A selection of projects I've worked on.
+                </p>
+
+            </div>
+
+
+            <div class="project-grid">
+
+
+                <a href="portfolio.html" class="project">
+
+                    <div class="project-image">
+                        <span>PROJECT 01</span>
+                    </div>
+
+                    <div class="project-details">
+
+                        <h3>
+                            Project Name
+                        </h3>
+
+                        <p>
+                            Photography
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+
+                <a href="portfolio.html" class="project">
+
+                    <div class="project-image">
+                        <span>PROJECT 02</span>
+                    </div>
+
+                    <div class="project-details">
+
+                        <h3>
+                            Project Name
+                        </h3>
+
+                        <p>
+                            Videography
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+
+                <a href="portfolio.html" class="project">
+
+                    <div class="project-image">
+                        <span>PROJECT 03</span>
+                    </div>
+
+                    <div class="project-details">
+
+                        <h3>
+                            Project Name
+                        </h3>
+
+                        <p>
+                            Technology
+                        </p>
+
+                    </div>
+
+                </a>
+
+
+            </div>
+
+
+            <div class="projects-button">
+
+                <a href="portfolio.html" class="outline-button">
+                    View All Projects
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ABOUT
+        ========================== -->
+
+        <section class="about-section" id="about">
+
+            <div class="about-image">
+
+                <div class="about-placeholder">
+                    <span>PHOTO</span>
+                </div>
+
+            </div>
+
+
+            <div class="about-content">
+
+                <p class="eyebrow">
+                    ABOUT ME
+                </p>
+
+                <h2>
+                    Creating, building
+                    and exploring.
+                </h2>
+
+                <p>
+                    I'm Cameron. This website is a place
+                    to showcase my photography, video,
+                    technology, AV work and the projects
+                    I've worked on.
+                </p>
+
+                <p>
+                    I'm always working on something new,
+                    learning new skills and finding new
+                    ways to create.
+                </p>
+
+                <a href="about.html" class="text-button">
+                    More About Me →
+                </a>
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CONTACT
+        ========================== -->
+
+        <section class="contact-section" id="contact">
 
             <p class="eyebrow">
-                CONTACT
+                GET IN TOUCH
             </p>
 
             <h2>
+                Let's work on something.
+            </h2>
+
+            <p>
+                Have a project, question or idea?
+            </p>
+
+            <a href="contact.html" class="hero-button">
                 Get In Touch
-            </h2>
-
-            <p>
-                Have a question or want to get in touch?
-            </p>
-
-            <a href="contact.html" class="button">
-                Contact Me
             </a>
 
         </section>
+
 
     </main>
 
 
-    <footer>
 
-        <h3>Cameron Brown</h3>
+    <!-- =========================
+         FOOTER
+    ========================== -->
 
-        <p>
-            Photography • Videography • Technology • AV
-        </p>
+    <footer class="footer">
 
-        <p>
-            © 2026 Cameron Brown
-        </p>
+        <div class="footer-top">
+
+            <div>
+
+                <a href="index.html" class="footer-logo">
+                    CAMERON BROWN
+                </a>
+
+                <p>
+                    Photography · Video · Technology · AV
+                </p>
+
+            </div>
+
+
+            <div class="footer-links">
+
+                <a href="#work">Work</a>
+
+                <a href="#projects">Projects</a>
+
+                <a href="#about">About</a>
+
+                <a href="#contact">Contact</a>
+
+            </div>
+
+        </div>
+
+
+        <div class="footer-bottom">
+
+            <p>
+                © 2026 Cameron Brown
+            </p>
+
+            <p>
+                All rights reserved.
+            </p>
+
+        </div>
 
     </footer>
+
 
 </body>
 
