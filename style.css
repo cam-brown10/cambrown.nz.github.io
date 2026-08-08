@@ -103,6 +103,10 @@ a {
 
 .hero-content {
     max-width: 850px;
+
+    margin: auto;
+
+    text-align: center;
 }
 
 .eyebrow {
@@ -192,6 +196,8 @@ a {
     margin: auto;
 
     padding: 0 30px 45px;
+
+    text-align: center;
 }
 
 .section-heading h2 {
@@ -275,6 +281,8 @@ a {
 
 .category-info {
     padding: 25px;
+
+    text-align: center;
 }
 
 .category-info h3 {
@@ -384,16 +392,13 @@ a {
 }
 
 .about-content {
-    max-width: 1200px;
+    max-width: 1000px;
 
     margin: auto;
 
     display: grid;
 
-    grid-template-columns: 1fr 1fr;
-
-    gap: 80px;
-}
+    align-items: center;
 
 .about-content h2 {
     font-size: 42px;
